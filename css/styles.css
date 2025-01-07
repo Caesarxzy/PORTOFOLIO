@@ -11731,4 +11731,37 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+  /* Google Map Container Styling */
+.google-map-container {
+  position: relative;
+  width: 100%;
+  height: 450px; /* Menentukan tinggi peta */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan bayangan pada peta */
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .google-map-container {
+      height: 300px; /* Mengatur tinggi peta untuk layar kecil */
+  }
+}
+}
+/* Styling Form Pencarian di Navbar */
+#searchForm {
+    display: flex;
+    align-items: center;
+}
+
+#searchForm .form-control {
+    width: 200px;
+    border-radius: 25px;
+}
+
+#searchForm button {
+    border-radius: 25px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
 }
